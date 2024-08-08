@@ -1,0 +1,1 @@
+docker run -p 5432:5432 -d -it --name postgres -v runnersdb:/var/lib/postgresql/data  -e POSTGRES_PASSWORD=postgres  postgres
